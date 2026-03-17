@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Task5</title>
+</head>
+
+<body>
+
+   <form action="#" method="post">
+    <fieldset>
+     <legend>Form with validation:</legend>
+      <label for="Fname">Full name:</label>
+      <input type="text" id="Fname" maxlength="20" minlength="5" required><br><br>
+     
+      <label for="email">Email</label>
+      <input type="email" id="email" required autocomplete="email"><br><br>
+
+      <label for="pass">Password</label>
+      <input type="password" id="pass" required minlength="8" ><br><br>
+
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" placeholder="+20" ><br><br>
+
+      <label for="web">Website</label>
+      <input type="url" id="web"><br><br>
+
+      <label for="bdate">Birth Date</label>
+      <input type="date" id="bdate" required min="2005-01-01" max="2012-12-31"><br><br>
+       
+      <fieldset>
+         <legend>Gender</legend>
+      <label for="male">male</label>
+      <input type="radio" id="male" required >
+
+      <label for="female">Female</label>
+      <input type="radio" id="female" required >
+
+      <label for="other">other</label>
+      <input type="radio" id="other" required >
+       </fieldset>
+
+       <br><br>
+      <label for="newsletter">Subscribe to newsletter</label>
+      <input type="checkbox" id="newsletter" value="yes"><br><br>
+       
+      <label for="country">Country</label>
+      <select id="country" >
+      <option value="egypt">Egypt</option>
+      <option value="palestine">Palestine</option>
+      <option value="libya">Libya</option>
+      <option value="spain">Spain</option>
+      <option value="france">France</option>
+      <option value="german">German</option>
+      </select><br><br>
+     
+      <label for="fav">Favourite languages</label>
+    <input list="languages" id="fav">
+    <datalist id="languages">
+    <option value="Arabic">
+    <option value="French">
+    <option value="Spanish">
+    <option value="German">
+    <option value="Italian">
+    </datalist><br><br>
+
+    <input type="submit">&nbsp;&nbsp;&nbsp;
+    <input type="reset">
+
+   </fieldset>
+   </form>
+   <br><br><br>
+
+   <form novalidate action="#" method="">
+     <fieldset>
+     <legend>Form with novalidation:</legend>
+      <label for="Fname">Full name:</label>
+      <input type="text" id="Fname" maxlength="20" minlength="5" required><br><br>
+     
+      <label for="email">Email</label>
+      <input type="email" id="email" required autocomplete="email"><br><br>
+
+      <label for="pass">Password</label>
+      <input type="password" id="pass" required minlength="8" ><br><br>
+
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" placeholder="+20" ><br><br>
+
+      <label for="web">Website</label>
+      <input type="url" id="web"><br><br>
+
+      <label for="bdate">Birth Date</label>
+      <input type="date" id="bdate" required min="2005-01-01" max="2012-12-31"><br><br>
+       
+      <fieldset>
+         <legend>Gender</legend>
+      <label for="male">male</label>
+      <input type="radio" id="male" required >
+
+      <label for="female">Female</label>
+      <input type="radio" id="female" required >
+
+      <label for="other">other</label>
+      <input type="radio" id="other" required >
+       </fieldset>
+
+       <br><br>
+      <label for="newsletter">Subscribe to newsletter</label>
+      <input type="checkbox" id="newsletter" value="yes"><br><br>
+       
+      <label for="country">Country</label>
+      <select id="country" >
+      <option value="egypt">Egypt</option>
+      <option value="palestine">Palestine</option>
+      <option value="libya">Libya</option>
+      <option value="spain">Spain</option>
+      <option value="france">France</option>
+      <option value="german">German</option>
+      </select><br><br>
+     
+      <label for="fav">Favourite languages</label>
+    <input list="languages" id="fav">
+    <datalist id="languages">
+    <option value="Arabic">
+    <option value="French">
+    <option value="Spanish">
+    <option value="German">
+    <option value="Italian">
+    </datalist><br><br>
+
+    <input type="submit">&nbsp;&nbsp;&nbsp;
+    <input type="reset">
+
+   </fieldset>
+   </form>
+
+</body>
+</html>
