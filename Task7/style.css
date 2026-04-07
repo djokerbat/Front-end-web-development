@@ -1,0 +1,39 @@
+h1{
+    color:red;
+}
+
+p{
+   color:blue ;
+}
+
+.box{
+    background-color: grey;
+   color:rgb(0, 0, 0);
+}
+
+#main{
+    color:green;
+}
+
+.common{
+   
+    color:white;
+    background-color: rgb(70, 0, 136);
+}
+
+#unique{
+    background-color: aqua;
+    color:brown
+}
+
+.hex{
+color:#0011ff;
+}
+    
+.rgb{
+color: rgb(113, 0, 141)
+} 
+
+.rgba{
+color: rgba(231, 77, 16, 0.5);
+}
