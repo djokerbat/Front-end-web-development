@@ -1,0 +1,15 @@
+.box {
+    padding: 30px;
+    margin: 20px;
+    border: 7px solid #f472b6;
+    border-radius: 20px;
+    background-color:skyblue;
+}
+
+h1 {
+    color: purple;
+}
+
+p {
+    color: darkblue;
+}
