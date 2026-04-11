@@ -1,0 +1,390 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #FFFFFF;
+}
+
+#head {
+padding-top:11.14px ;
+padding-bottom: 11.14px;
+padding-right:100.23px ;
+padding-left:100.23px ;
+background-color: #FFFFFF;
+}
+#nav{
+    padding: 100px; 
+    padding-right: 0%;
+    margin: 100px;
+    margin-right: 0%;
+  word-spacing: 60px; }
+
+  #home{
+   background-color: #F5F7FA;
+   padding-right: 100.23px;
+   padding-left: 100.23px;
+   padding-top: 66.82px;
+   padding-bottom: 66.82px;
+   display: flex;
+
+  }
+  .button{
+    
+    background-color: #4CAF4F;
+    border-radius: 2.78px;
+    border:0px;
+    padding-top: 9.74px;
+    padding-bottom: 9.74px;
+    padding-left: 22.27px;
+    padding-right: 22.27px;
+    color: #FFFFFF;
+  }
+
+#img1{
+    margin-left: 350px;
+}
+.hhome{
+    color: #4D4D4D;
+    font-size: 44.55px;
+    font-weight: 600;
+    font-family: sans-serif;
+    
+}
+.h2{
+    color:#4CAF4F;
+   font-size: 44.55px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.h0{
+    color: #4D4D4D;
+font-family: sans-serif;
+font-weight: 600;
+font-size: 25.06px;
+line-height: 30.63px;
+letter-spacing: 0%;
+
+
+}
+p{
+    color:#717171;
+    font-size: 11.14px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    margin-top: 8px;
+    padding-bottom: 8px;
+    font-family: sans-serif;
+}
+
+.clients{
+    padding-right: 100.23px;
+    padding-left: 100.23px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    
+}
+
+
+.logo{
+  padding-right: 150px;
+}
+
+.cards{
+    padding-left: 100.23px;
+    padding-right: 100.23px;
+    padding-bottom: 40px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    height: 150;
+    width: 260px;
+    font-size:19.49px ;
+    text-align: center;
+    box-shadow: #ABBED133;
+    padding-top: 50px;
+    padding-bottom: 16.71px;
+    padding-right: 22.27px;
+    padding-left: 22.27px;
+    margin: 30px;
+    box-shadow: 4px 5px 3px 2px #ABBED133; 
+}
+
+#unlock{
+
+   padding-right: 100.23px;
+   padding-left: 100.23px;
+   padding-top: 66.82px;
+   padding-bottom: 66.82px;
+   display: flex;
+
+}
+
+#img2{
+    margin-right: 100px;
+
+}
+ .hcard{
+    font-size: 19.49px;
+    font-family: sans-serif;
+    color: #4D4D4D;
+ }
+
+.img{
+  width: 45.24452209472656;
+height: 38.979888916015625;
+opacity: 1;
+}
+
+.h20{
+color: #4CAF4F;
+font-family: sans-serif;
+
+}
+
+.achieve{
+    background-color: #F5F7FA;
+    display: flex;
+    gap:200px;
+    padding-right: 100.23px;
+   padding-left: 100.23px;
+   height:fit-content;
+   padding-top:50px;
+   padding-bottom:50px;
+}
+
+.font{
+    font-size: 15px;
+   color:#4D4D4D;
+   font-family: sans-serif;
+}
+ 
+.container{
+   display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 200px;
+    height: 200px; 
+    row-gap: 10px;
+    vertical-align: middle;
+    
+}
+
+.text{
+    
+    vertical-align: middle;
+    padding-left: 200px;
+}
+
+.num{
+    width: 177.49771118164062;
+height: 43;
+gap: 11.14px;
+opacity: 1;
+
+}
+
+#img{
+    
+    width: 226.91864013671875px;
+    height: 226.91864013671875px;
+    opacity: 1;
+    object-fit: cover;
+    border-radius: 5.57px;
+
+
+
+}
+ .name{
+    font-size: 13.92px;
+    color: #4CAF4F;
+    font-family: sans-serif;
+    padding-bottom: 8px;
+ }
+#logos{
+    display: flex;
+    gap:20px
+}
+
+
+.community{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-right:100.23px ;
+    padding-left: 100.23px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: fit-content;
+    background-color:#F5F7FA ;
+
+}
+
+.clients1{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-left: 100.23px;
+    padding-right: 100.23px;
+    padding: 80px;
+    padding-top:30px;
+    height: fit-content;
+    gap: 60px;
+
+}
+ .imgcard{
+   width: 256.153564453125px;
+height: 199.07586669921875px;
+opacity: 1;
+border-radius: 5.57px;
+
+ }
+
+ .footer{
+    padding-right: 100.23px;
+    padding-left: 100.23px;
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color: #263238;
+    display: flex;
+    gap:50px; 
+    justify-content: space-between;
+    align-items: flex-start;
+   color: #FFFFFF;
+   
+ }
+.clients2{
+  padding-right: 100.23px;
+    padding-left: 100.23px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    background-color: #F5F7FA;
+}
+#paths{
+    display: flex;
+    gap: 15px;
+    padding-top: 10px;
+    
+}
+
+.email{
+    display: flex;
+    color:#FFFFFF
+}
+.hfooter{
+    color:#FFFFFF;
+    font-family: sans-serif;
+    font-size: 13.92px;
+}
+.pfooter{
+    padding-top: 5px;
+    color:#F5F7FA;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 9.74px;
+    margin: 0%;
+}
+.community{
+    display:flex ;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.vector{
+    height: 12.529251098632812px;
+    padding-left: 3PX;
+
+}
+.email{
+    width:177.49771118164062px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap:10px;
+    background-color: #ffffff27;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin:5px;
+    border-radius: 5.57px;
+}
+.part{
+    display: block;
+    justify-content: space-between;
+    gap: 50px;
+    line-height:30px;
+}
+.arrow{
+    padding-left: 4px;
+    width: 7.962774276733429px;
+    height: auto;
+}
+.overlay h3{
+    margin: 0%;
+    padding: 0%;
+    color:#717171;
+    font-family: sans-serif;
+    font-size: 13.92px;
+}
+.overlay{
+    position: absolute;
+    display: inline-block;
+    
+    bottom: -70px;
+    left: 25px;
+    width:70%;
+    height: fit-content ;
+    padding: 15px;
+    box-shadow: 0px 5.57px 11.14px 0px #ABBED166;
+    border-radius:5.57px;
+    background-color: #F5F7FA;
+    text-align: center;
+
+}
+.card1{
+    position: relative;
+    width: fit-content;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+colors
+netural {
+color: #263238;
+color: #4D4D4D;
+color: #717171;
+color: #89939E;
+color: #ABBED1;
+color: #F5F7FA;
+color: #FFFFFF;
+}
+
+primary{
+color: #4CAF4F;
+color: #263238;
+color: #2194F3;  
+}
+
+Color Shade{
+  color: #43A046;
+  color: #388E3B;
+  color: #237D31;
+  color: #1B5E1F;
+  color: #103E13;  
+}
+
+Color Tint{
+  color: #66BB69; 
+  color: #81C784; 
+  color: #A5D6A7; 
+  color: #C8E6C9; 
+  color: #E8F5E9;   
+}
+
+action{
+  color: #FBC02D;  
+  color: #E53835;
+  color: #2E7D31; 
+}   
