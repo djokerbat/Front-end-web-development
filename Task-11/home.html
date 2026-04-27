@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<title>Task-11-home</title>
+<style>
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:sans-serif;
+    background-color:#005C87;
+}
+
+.card{
+    background:#3DADFF;
+    padding:30px;
+    border-radius:15px;
+    border-color:rgb(255, 255, 255);
+    border-style: solid;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    width:250px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.card:hover{
+ transform: translateY(-10px) scale(1.03);
+ box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+.card img{
+    width:80px;
+    border-radius:50%;
+    margin-bottom:10px; 
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"alt="icon">
+    <h2 id="name"></h2>
+    <p id="email"></p>
+</div>
+
+<script>
+document.getElementById("name").innerText = localStorage.getItem("name");
+document.getElementById("email").innerText = localStorage.getItem("email");
+</script>
+
+</body>
+</html>
