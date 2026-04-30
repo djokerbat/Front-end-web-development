@@ -11,3 +11,4 @@
 | Task 7 | [Live Demo](https://djokerbat.github.io/Front-end-web-development/Task7/index.html) |
 | Task 8 | [Live Demo](https://djokerbat.github.io/Front-end-web-development/Task8/index.html) |
 | Task 9 | [Live Demo](https://djokerbat.github.io/Front-end-web-development/Task9/index.html) |
+| Task 11 | [Live Demo](https://djokerbat.github.io/Front-end-web-development/Task-11/index.html) |
